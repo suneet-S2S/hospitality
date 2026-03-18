@@ -1,0 +1,20 @@
+@import '@fontsource/outfit/400.css';
+@import '@fontsource/outfit/500.css';
+@import '@fontsource/outfit/600.css';
+@import '@fontsource/outfit/700.css';
+@import '@fontsource/libre-baskerville/700.css';
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(circle at 12% -8%, rgba(252, 163, 17, 0.28) 0%, rgba(252, 163, 17, 0) 32%),
+    radial-gradient(circle at 100% 0%, rgba(90, 147, 238, 0.24) 0%, rgba(90, 147, 238, 0) 30%),
+    linear-gradient(180deg, #fffdf8 0%, #f6f9ff 42%, #ffffff 100%);
+}

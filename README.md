@@ -1,14 +1,26 @@
-# Hospitality Staffing Mock Website
+# Hospitality Staffing Website (React + MUI)
 
-Presentation-ready demo website for a hospitality staffing business.
+Presentation-ready demo website for a hospitality staffing business, now built with React, MUI, and Vite.
 
 ## Run Locally
 
-1. Open `index.html` directly in your browser.
-2. Or use VS Code Live Server for a better preview experience.
+1. Install dependencies:
+	npm install
+2. Start development server:
+	npm run dev
+3. Build production files:
+	npm run build
+4. Preview production build:
+	npm run preview
 
-## Included Files
+## Main Files
 
-- `index.html` - Website structure and content
-- `styles.css` - Visual design, layout, and responsive styling
-- `script.js` - Scroll reveal animation for presentation polish
+- `index.html` - Vite entry HTML
+- `src/main.jsx` - React bootstrap and theme wiring
+- `src/App.jsx` - Website UI sections built with MUI components
+- `src/theme.js` - MUI theme tokens and component styling
+- `src/index.css` - Global background and font imports
+
+## Notes
+
+- Legacy static files `styles.css` and `script.js` remain in the repo for reference and can be removed later.
